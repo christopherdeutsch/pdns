@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe "sqlite"
+#include_recipe "sqlite"
 
 package "pdns-backend-sqlite3" do
   package_name value_for_platform(

@@ -1,5 +1,5 @@
 include_recipe 'build-essential'
-include_recipe 'mysql::client'
+#include_recipe 'mysql::client'
 include_recipe 'git'
 
 package 'libtool'
