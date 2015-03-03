@@ -21,7 +21,7 @@ auth-zones=<%= node["pdns"]["recursor"]["auth_zones"].join(", ") %>
 # export-etc-hosts=off
 forward-zones=<%= node["pdns"]["recursor"]["forward_zones"].join(", ") %>
 # forward-zones-file=
-forward-zones-recurse=<%= node["pdns"]["recursor"]["forward_zones_recurse"].join(", ") %>
+#forward-zones-recurse=<%= node["pdns"]["recursor"]["forward_zones_recurse"].join(", ") %>
 # hint-file=
 # ignore-rd-bit=off
 local-address=<%= node["pdns"]["recursor"]["local_address"].join(", ") %>
